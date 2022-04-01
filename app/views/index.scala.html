@@ -1,0 +1,139 @@
+@(form: Form[controllers.FormData])(implicit request: MessagesRequestHeader)
+
+
+
+@main("Transinnovate Tendering System") {
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner clearfix">
+        <a class="brand" href=""><img src="@routes.Assets.versioned("img/logo.png ")" alt="" width="320"
+                height="52" /></a>
+
+    </div>
+</div>
+
+<div class="row-fluid">
+    <div class="sidebar-nav">
+        <ul class="nav nav-list">
+            <li class="nav-header">Tendering details</li>
+            <li>
+                <a href="projects.html" title="add and view projects">
+                    Upload csv and view details
+                </a>
+            </li>
+
+
+        </ul>
+        <ul class="thumbnails" style="padding-top: 10px; min-height: 100px;" id="friendsList">
+        </ul>
+    </div>
+    <div class="container-fluid">
+
+
+        <div class="content">
+            <div class="row-fluid">
+                <div class="span2">&nbsp;</div>
+                <div class="span6">
+                    <div class="login-container">
+                        <div class="login-span">
+
+
+                            @helper.form(action = routes.HomeController.upload, Symbol("enctype") ->
+                            "multipart/form-data") {
+                            @helper.inputFile(form("name"))
+                            @helper.CSRF.formField
+                            <input type="submit" id="upload" value="upload file" />
+                            }
+
+                            }
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <br>
+
+
+        <div class="content">
+            <div class="row-fluid">
+                <div class="span16">
+                    <h4 class="under-border">TABLE SHOWING SUMMARY OF SHIPMENT AND PROVIDERS</h4>
+
+                    <div class="table-responsive">
+                        <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+
+                            <p>
+                                <input type='button' value='Click to show data in Table' id='bt'>
+                            </p>
+                            <div id='showData'></div>
+                            <script>
+                                $('#bt').click(function () {
+                                    $.getJSON("http://localhost/9000/providers", function (data) {
+
+                                        let keys;
+                                        let items = [];
+
+                                        $.each(data, function (index, value) {
+                                            keys = Object.keys(value);
+                                            items.push(value);
+                                        });
+
+                                        let table = document.createElement("table");
+                                        let tr = table.insertRow(-1);
+
+                                        // First, create table header.
+                                        for (let i = 0; i < keys.length; i++) {
+                                            let th = document.createElement('th');
+                                            th.innerHTML = keys[i];
+                                            tr.appendChild(th);
+                                        }
+
+                                        // Now, show the details in rows and columns.
+                                        for (let k = 0; k < items.length; k++) {
+                                            tr = table.insertRow(-1);
+
+                                            for (let j = 0; j < keys.length; j++) {
+                                                let tabCell = tr.insertCell(-1);
+
+                                                // Check if its a negative number.
+                                                // Math.sign() method is a new ES6 feature, to check if a number is positive or negative.
+                                                if (Math.sign(items[k][keys[j]]) === -1) {
+                                                    tabCell.innerHTML = '<span style="color:red;">' +
+                                                        items[k][keys[j]] + '</span>';
+                                                }
+                                                else {
+                                                    tabCell.innerHTML = items[k][keys[j]];
+                                                }
+                                            }
+                                        }
+
+                                        // Add the newly created table to the DIV element.
+                                        let eleShow = document.getElementById('showData');
+                                        eleShow.innerHTML = '';
+                                        eleShow.appendChild(table);
+                                    });
+                                });
+                            </script>
+
+
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+        <hr>
+        <!-- Placed at the end of the document so the pages load faster -->
+
+        <script src="jquery3/jquery-3.3.1.js"></script>
+        <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="datatables/js/jquery.dataTables.min.js"></script>
+        <script src="datatables/js/dataTables.bootstrap4.min.js"></script>
+        <script src="datatables/js/sb-admin-datatables.min.js"></script>
+
+

@@ -1,0 +1,3 @@
+[0m[[0m[31merror[0m] [0m[0m[Error] /home/duke/Desktop/play-challenge4/play-samples-play-scala-fileupload-example/app/views/main.scala.html:32[0m
+[0m[[0m[31merror[0m] [0m[0m</html>: Expected ')' but found 'EOF'[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mtwirlCompileTemplates[0m) Twirl compilation failed[0m

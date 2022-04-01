@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/home/duke/Desktop/play-challenge4/play-samples-play-scala-fileupload-example/app/controllers/HomeController.scala:127:19: The outer reference in this type test cannot be checked at run time.[0m
+[0m[[0m[31merror[0m] [0m[0m final case class MinMax(min: Double, max: Double) {[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
