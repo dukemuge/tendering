@@ -1,4 +1,15 @@
-[0m[[0m[31merror[0m] [0m[0m/home/duke/Desktop/play-challenge4/play-samples-play-scala-fileupload-example/app/controllers/HomeController.scala:127:19: The outer reference in this type test cannot be checked at run time.[0m
-[0m[[0m[31merror[0m] [0m[0m final case class MinMax(min: Double, max: Double) {[0m
-[0m[[0m[31merror[0m] [0m[0m                  ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/duke/Desktop/play-challenge4/working-Folder/app/views/index.scala.html:1:1: wrong number of type arguments for List, should be 1[0m
+[0m[[0m[31merror[0m] [0m[0m@(form: Form[controllers.FormData])(providers:List[Int,Double,String,Double,String])(implicit request: MessagesRequestHeader)[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/duke/Desktop/play-challenge4/working-Folder/app/views/index.scala.html:1:47: wrong number of type arguments for List, should be 1[0m
+[0m[[0m[31merror[0m] [0m[0m@(form: Form[controllers.FormData])(providers:List[Int,Double,String,Double,String])(implicit request: MessagesRequestHeader)[0m
+[0m[[0m[31merror[0m] [0m[0m                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/duke/Desktop/play-challenge4/working-Folder/app/controllers/HomeController.scala:101:24: missing argument list for method apply in object index[0m
+[0m[[0m[31merror[0m] [0m[0mUnapplied methods are only converted to functions when a function type is expected.[0m
+[0m[[0m[31merror[0m] [0m[0mYou can make this conversion explicit by writing `apply _` or `apply(_)(_)(_)` instead of `apply`.[0m
+[0m[[0m[31merror[0m] [0m[0m    Ok(views.html.index(form))[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/duke/Desktop/play-challenge4/working-Folder/app/views/index.scala.html:63:6: wrong number of type arguments for List, should be 1[0m
+[0m[[0m[31merror[0m] [0m[0m    }[0m
+[0m[[0m[31merror[0m] [0m[0m     ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m

@@ -22,16 +22,10 @@ package controllers {
       Call("GET", _prefix)
     }
   
-    // @LINE:6
-    def list: Call = {
-      
-      Call("GET", _prefix + { _defaultPrefix } + "providers")
-    }
-  
     // @LINE:9
-    def upload: Call = {
+    def upload(): Call = {
       
-      Call("POST", _prefix + { _defaultPrefix } + "upload")
+      Call("POST", _prefix + { _defaultPrefix } + "upload/form")
     }
   
   }

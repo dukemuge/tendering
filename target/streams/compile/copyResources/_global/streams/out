@@ -1,4 +1,4 @@
 [0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/home/duke/Desktop/play-challenge4/play-samples-play-scala-fileupload-example (copy)/conf/application.conf,/home/duke/Desktop/play-challenge4/play-samples-play-scala-fileupload-example (copy)/target/scala-2.13/classes/application.conf)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/home/duke/Desktop/play-challenge4/play-samples-play-scala-fileupload-example (copy)/conf/logback.xml,/home/duke/Desktop/play-challenge4/play-samples-play-scala-fileupload-example (copy)/target/scala-2.13/classes/logback.xml)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/home/duke/Desktop/play-challenge4/play-samples-play-scala-fileupload-example (copy)/conf/routes,/home/duke/Desktop/play-challenge4/play-samples-play-scala-fileupload-example (copy)/target/scala-2.13/classes/routes)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/duke/Desktop/play-challenge4/working-Folder/conf/application.conf,/home/duke/Desktop/play-challenge4/working-Folder/target/scala-2.13/classes/application.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/duke/Desktop/play-challenge4/working-Folder/conf/logback.xml,/home/duke/Desktop/play-challenge4/working-Folder/target/scala-2.13/classes/logback.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/duke/Desktop/play-challenge4/working-Folder/conf/routes,/home/duke/Desktop/play-challenge4/working-Folder/target/scala-2.13/classes/routes)[0m

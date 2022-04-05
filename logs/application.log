@@ -1,11 +1,10 @@
-2022-04-01 16:46:47,831 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-5 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+2022-04-05 12:48:01,367 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-9 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
 
-    play.filters.csrf.CSRFFilter
     play.filters.headers.SecurityHeadersFilter
     play.filters.hosts.AllowedHostsFilter
 
-2022-04-01 16:46:48,029 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-5 - Application started (Dev) (no global state)
-2022-04-01 16:46:48,223 [DEBUG] from controllers.AssetsConfiguration in play-dev-mode-akka.actor.default-dispatcher-5 - Using the following cache configuration for assets:
+2022-04-05 12:48:01,765 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-9 - Application started (Dev) (no global state)
+2022-04-05 12:48:02,123 [DEBUG] from controllers.AssetsConfiguration in play-dev-mode-akka.actor.default-dispatcher-9 - Using the following cache configuration for assets:
 	 enableCaching = false
 	 enableCacheControl = false
 	 defaultCacheControl = public, max-age=3600
@@ -13,89 +12,3 @@
 	 configuredCacheControl:
 
 
-2022-04-01 17:00:03,437 [DEBUG] from controllers.AssetsMetadataProvider in application-akka.actor.internal-dispatcher-4 - Cleaning AssetsMetadata instance
-2022-04-01 17:00:05,327 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-27 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
-
-    play.filters.csrf.CSRFFilter
-    play.filters.headers.SecurityHeadersFilter
-    play.filters.hosts.AllowedHostsFilter
-
-2022-04-01 17:00:05,367 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-27 - Application started (Dev) (no global state)
-2022-04-01 17:00:05,598 [DEBUG] from controllers.AssetsConfiguration in play-dev-mode-akka.actor.default-dispatcher-27 - Using the following cache configuration for assets:
-	 enableCaching = false
-	 enableCacheControl = false
-	 defaultCacheControl = public, max-age=3600
-	 aggressiveCacheControl = public, max-age=31536000, immutable
-	 configuredCacheControl:
-
-
-2022-04-01 17:05:41,616 [DEBUG] from controllers.AssetsMetadataProvider in application-akka.actor.internal-dispatcher-4 - Cleaning AssetsMetadata instance
-2022-04-01 17:05:42,637 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-28 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
-
-    play.filters.csrf.CSRFFilter
-    play.filters.headers.SecurityHeadersFilter
-    play.filters.hosts.AllowedHostsFilter
-
-2022-04-01 17:05:42,690 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-28 - Application started (Dev) (no global state)
-2022-04-01 17:05:42,761 [DEBUG] from controllers.AssetsConfiguration in play-dev-mode-akka.actor.default-dispatcher-28 - Using the following cache configuration for assets:
-	 enableCaching = false
-	 enableCacheControl = false
-	 defaultCacheControl = public, max-age=3600
-	 aggressiveCacheControl = public, max-age=31536000, immutable
-	 configuredCacheControl:
-
-
-2022-04-01 17:33:25,404 [DEBUG] from controllers.AssetsMetadataProvider in application-akka.actor.internal-dispatcher-4 - Cleaning AssetsMetadata instance
-2022-04-01 17:33:26,302 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-48 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
-
-    play.filters.csrf.CSRFFilter
-    play.filters.headers.SecurityHeadersFilter
-    play.filters.hosts.AllowedHostsFilter
-
-2022-04-01 17:33:26,344 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-48 - Application started (Dev) (no global state)
-2022-04-01 17:33:26,385 [DEBUG] from controllers.AssetsConfiguration in play-dev-mode-akka.actor.default-dispatcher-47 - Using the following cache configuration for assets:
-	 enableCaching = false
-	 enableCacheControl = false
-	 defaultCacheControl = public, max-age=3600
-	 aggressiveCacheControl = public, max-age=31536000, immutable
-	 configuredCacheControl:
-
-
-2022-04-01 17:34:43,202 [INFO] from controllers.HomeController in application-akka.actor.default-dispatcher-12 - count = 64, status = Success(Done)
-2022-04-01 17:34:43,234 [INFO] from controllers.HomeController in application-akka.actor.default-dispatcher-12 - key = name, filename = finance2.csv, contentType = Some(text/csv), file = /home/duke/Desktop/files/shipment11317429470667595855.csv, fileSize = -1, dispositionType = form-data
-2022-04-01 17:37:10,111 [DEBUG] from controllers.AssetsMetadataProvider in application-akka.actor.internal-dispatcher-5 - Cleaning AssetsMetadata instance
-2022-04-01 17:37:10,610 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-48 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
-
-    play.filters.csrf.CSRFFilter
-    play.filters.headers.SecurityHeadersFilter
-    play.filters.hosts.AllowedHostsFilter
-
-2022-04-01 17:37:10,623 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-48 - Application started (Dev) (no global state)
-2022-04-01 17:37:10,638 [DEBUG] from controllers.AssetsConfiguration in play-dev-mode-akka.actor.default-dispatcher-48 - Using the following cache configuration for assets:
-	 enableCaching = false
-	 enableCacheControl = false
-	 defaultCacheControl = public, max-age=3600
-	 aggressiveCacheControl = public, max-age=31536000, immutable
-	 configuredCacheControl:
-
-
-2022-04-01 17:40:22,678 [DEBUG] from controllers.AssetsMetadataProvider in application-akka.actor.internal-dispatcher-4 - Cleaning AssetsMetadata instance
-2022-04-01 17:40:23,251 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-51 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
-
-    play.filters.csrf.CSRFFilter
-    play.filters.headers.SecurityHeadersFilter
-    play.filters.hosts.AllowedHostsFilter
-    play.filters.cors.CORSFilter
-    play.filters.cors.CORSFilter
-
-2022-04-01 17:40:23,286 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-51 - Application started (Dev) (no global state)
-2022-04-01 17:40:23,315 [DEBUG] from controllers.AssetsConfiguration in play-dev-mode-akka.actor.default-dispatcher-51 - Using the following cache configuration for assets:
-	 enableCaching = false
-	 enableCacheControl = false
-	 defaultCacheControl = public, max-age=3600
-	 aggressiveCacheControl = public, max-age=31536000, immutable
-	 configuredCacheControl:
-
-
-2022-04-01 17:45:53,717 [INFO] from controllers.HomeController in application-akka.actor.default-dispatcher-11 - count = 64, status = Success(Done)
-2022-04-01 17:45:53,721 [INFO] from controllers.HomeController in application-akka.actor.default-dispatcher-17 - key = name, filename = finance2.csv, contentType = Some(text/csv), file = /home/duke/Desktop/files/shipment15482213861033937235.csv, fileSize = -1, dispositionType = form-data

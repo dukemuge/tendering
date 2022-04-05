@@ -4,7 +4,236 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f54d631a-5571-4ca8-a06f-7a72ee70df18" name="Changes" comment="" />
+    <list default="true" id="f54d631a-5571-4ca8-a06f-7a72ee70df18" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.bsp/sbt.json" beforeDir="false" afterPath="$PROJECT_DIR$/.bsp/sbt.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/play-scala-fileupload-example-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/play-scala-fileupload-example-build.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/play-scala-fileupload-example.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/play-scala-fileupload-example.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NOTICE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/HomeController.scala" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/HomeController.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/Test.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/Rates.scala" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Rates.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/index.scala.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/index.scala.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/main.scala.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/main.scala.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/conf/application.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/routes" beforeDir="false" afterPath="$PROJECT_DIR$/conf/routes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/application.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$57776b45ef36bb4a3213$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$57776b45ef36bb4a3213.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$57776b45ef36bb4a3213.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$7dc0a30b0d193abb8baf$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$7dc0a30b0d193abb8baf.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$7dc0a30b0d193abb8baf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$cf20fcad8d2e4eca2ad5$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$cf20fcad8d2e4eca2ad5.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$cf20fcad8d2e4eca2ad5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$32ab01a1f8e40d55fdc5$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$32ab01a1f8e40d55fdc5.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$32ab01a1f8e40d55fdc5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/update/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/_global/update/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/compileOutputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/compileOutputs/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/incOptions/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/incOptions/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/296069.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/Chart.min.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/MyProviders.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/Polar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/TableTools.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/TableTools.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/TomTom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/Validation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/Validation.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/ZeroClipboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/ZeroClipboard.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/a.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/analytics.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/application.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/application.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/bootbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/bootbox.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/bootstrap-alert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/bootstrap-alert.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/bootstrap-button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/bootstrap-button.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/bootstrap-carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/bootstrap-carousel.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/bootstrap-collapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/bootstrap-collapse.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/bootstrap-datepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/bootstrap-datepicker.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/bootstrap-dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/bootstrap-dropdown.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/bootstrap-modal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/bootstrap-modal.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/bootstrap-popover.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/bootstrap-popover.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/bootstrap-scrollspy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/bootstrap-scrollspy.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/bootstrap-tab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/bootstrap-tab.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/bootstrap-tagsinput.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/bootstrap-tagsinput.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/bootstrap-tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/bootstrap-tooltip.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/bootstrap-transition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/bootstrap-transition.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/bootstrap-typeahead.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/bootstrap-typeahead.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/cleardot.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/dataTables.bootstrap.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/dataTables.bootstrap4.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/dataTables.bootstrap4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/dataTables.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/disease.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/drug.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/element.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/element.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/element_main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/element_main.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/f.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/facebook-login.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/fb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/fitbit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/garminconnect.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/global.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/googlefit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/health-wellness-icon-sml.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/ihealth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/jawbone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/jquery-3.2.1.min.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/jquery.autocomplete.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/jquery.autocomplete.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/jquery.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/jquery.dataTables.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/jquery.dataTables.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/jquery.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/jquery_002.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/jquery_003.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/linkedin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/list.min.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/main.js(1).download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/main.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/main_002.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/modernizr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/modernizr.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/moment.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/mshealth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/new-charts.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/nhs-choices-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/njs.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/omron.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/qardio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/saved_resource" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/sb-admin-datatables.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/sb-admin-datatables.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/sdk.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/style_2016.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/symptoms-icon-sml.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/translate_24dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/translateelement.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/twitter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/withers.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/xaOI6zd9HW9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style_2016.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/datatables/css/dataTables.bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/datatables/css/dataTables.bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/datatables/css/dataTables.bootstrap4.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/datatables/css/dataTables.bootstrap4.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/datatables/css/dataTables.foundation.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/datatables/css/dataTables.foundation.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/datatables/css/dataTables.jqueryui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/datatables/css/dataTables.jqueryui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/datatables/css/dataTables.semanticui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/datatables/css/dataTables.semanticui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/datatables/css/jquery.dataTables.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/datatables/css/jquery.dataTables.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/datatables/images/sort_asc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/datatables/images/sort_asc_disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/datatables/images/sort_both.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/datatables/images/sort_desc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/datatables/images/sort_desc_disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/datatables/js/dataTables.bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/datatables/js/dataTables.bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/datatables/js/dataTables.bootstrap4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/datatables/js/dataTables.bootstrap4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/datatables/js/dataTables.foundation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/datatables/js/dataTables.foundation.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/datatables/js/dataTables.jqueryui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/datatables/js/dataTables.jqueryui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/datatables/js/dataTables.semanticui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/datatables/js/dataTables.semanticui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/datatables/js/jquery.dataTables.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/datatables/js/jquery.dataTables.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/datatables/js/sb-admin-datatables.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/datatables/js/sb-admin-datatables.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/folder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/javascripts/hello.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/jquery3/jquery-3.3.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/jquery3/jquery-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sbt.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/.history3" beforeDir="false" afterPath="$PROJECT_DIR$/target/.history3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/global-logging/sbt-global-log5338026784764846901.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/global-logging/sbt-global-log6599766027984326378.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/application.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/controllers/FormData$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/controllers/FormData$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/controllers/FormData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/controllers/FormData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/controllers/HomeController$MinMax$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/controllers/HomeController$MinMax$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/controllers/HomeController$MinMax.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/controllers/HomeController$MinMax.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/controllers/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/controllers/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/controllers/ReverseAssets.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/controllers/ReverseAssets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/controllers/ReverseHomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/controllers/ReverseHomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/controllers/Test$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/controllers/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/controllers/javascript/ReverseAssets.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/controllers/javascript/ReverseAssets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/controllers/javascript/ReverseHomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/controllers/javascript/ReverseHomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/models/Rates$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/models/Rates$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/router/Routes$$anonfun$routes$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/router/Routes$$anonfun$routes$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/router/Routes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/router/Routes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/routes" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/routes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/views/html/index$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/views/html/index$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/views/html/main$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/views/html/main$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/routes/main/controllers/ReverseRoutes.scala" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/routes/main/controllers/ReverseRoutes.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/routes/main/router/Routes.scala" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/routes/main/router/Routes.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/sync/copy-resource" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/sync/copy-resource" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/twirl/main/views/html/index.template.scala" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/twirl/main/views/html/index.template.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/twirl/main/views/html/main.template.scala" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/twirl/main/views/html/main.template.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/zinc/inc_compile_2.13.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/zinc/inc_compile_2.13.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/_global/_global/streams/sync-exported-assets-web-assets" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/_global/_global/streams/sync-exported-assets-web-assets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/playCommonClassloader/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/playCommonClassloader/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/update/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/update/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/_global/_global/compileOutputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/_global/_global/compileOutputs/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compile/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compile/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/copyResources/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/copyResources/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/exportedProducts/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/exportedProducts/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/incOptions/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/incOptions/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/playRoutes/_global/streams/op-cache" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/playRoutes/_global/streams/op-cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/exportedProducts/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/exportedProducts/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/internalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/internalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/web-assets/assets/_global/streams/sync-assets-web-assets" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/web-assets/assets/_global/streams/sync-assets-web-assets" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +253,15 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/app/controllers/HomeController.scala" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/conf/routes" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/app/views/main.scala.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/app/views/index.scala.html" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />

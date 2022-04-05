@@ -27,22 +27,12 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:6
-    def list: JavaScriptReverseRoute = JavaScriptReverseRoute(
-      "controllers.HomeController.list",
-      """
-        function() {
-          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "providers"})
-        }
-      """
-    )
-  
     // @LINE:9
     def upload: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.HomeController.upload",
       """
         function() {
-          return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "upload"})
+          return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "upload/form"})
         }
       """
     )

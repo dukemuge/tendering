@@ -21,4 +21,5 @@ package models
         Rates(251,500,"DE",240,"A"),
         Rates(501,750,"DE",480,"A"),
         Rates(751,1000,"DE",700,"A"))
+
   }
